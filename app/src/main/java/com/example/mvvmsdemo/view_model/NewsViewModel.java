@@ -6,9 +6,9 @@ import android.content.Context;
 import android.databinding.ObservableField;
 import android.os.Handler;
 
-import com.example.mvvmsdemo.moudle.IModel;
-import com.example.mvvmsdemo.moudle.NewsModel;
-import com.example.mvvmsdemo.moudle.bean.NewsBean;
+import com.example.mvvmsdemo.model.IModel;
+import com.example.mvvmsdemo.model.NewsModel;
+import com.example.mvvmsdemo.model.bean.NewsBean;
 
 import java.util.List;
 
@@ -26,7 +26,6 @@ public class NewsViewModel extends ViewModel implements IModel  {
         newsModel=new NewsModel();
         isFlash=new MutableLiveData<>();
     }
-
 
     public List<NewsBean> getdata(){
         return newsModel.get();

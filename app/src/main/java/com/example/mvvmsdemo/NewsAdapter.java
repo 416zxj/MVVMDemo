@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import com.example.mvvmsdemo.databinding.RvItemBinding;
-import com.example.mvvmsdemo.moudle.bean.NewsBean;
+import com.example.mvvmsdemo.model.bean.NewsBean;
 
 import java.util.List;
 

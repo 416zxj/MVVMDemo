@@ -3,7 +3,7 @@
     <data>
         <variable
             name="news"
-            type="com.example.mvvmsdemo.moudle.bean.NewsBean" />
+            type="com.example.mvvmsdemo.model.bean.NewsBean" />
     </data>
 <LinearLayout
     android:orientation="vertical"

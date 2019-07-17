@@ -1,4 +1,4 @@
-package com.example.mvvmsdemo.moudle.bean;
+package com.example.mvvmsdemo.model.bean;
 
 public class NewsBean {
     private String title;

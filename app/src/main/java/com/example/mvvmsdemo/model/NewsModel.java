@@ -1,10 +1,9 @@
-package com.example.mvvmsdemo.moudle;
+package com.example.mvvmsdemo.model;
 
-import android.app.Activity;
 import android.content.Context;
 import android.os.Handler;
 
-import com.example.mvvmsdemo.moudle.bean.NewsBean;
+import com.example.mvvmsdemo.model.bean.NewsBean;
 
 import java.util.ArrayList;
 import java.util.List;
